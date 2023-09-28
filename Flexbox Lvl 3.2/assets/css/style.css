@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "lato";
+    src: url(./../fonts/Lato/Lato-Black.ttf);
+}
+html {
+    font-family: "lato";
+}
+
+section {
+    background-color: #d9e8e5;
+    display: flex;  
+    padding: 80px 0px 180px 0px;
+    }
+
+nav {
+    display: flex;
+    padding: 15px 0px 15px 15px;
+}
+
+.nav_links {
+    display: flex;
+    /* justify-content: flex-start; */
+    gap: 20px;
+}
+
+.nav_rechts {
+    display:flex;
+    gap: 20px;
+    margin: auto;
+}   
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 10px;
+}
+
+.logo {
+    padding: 0px 30px 0px 30px;
+}
+
+/* .wrap_nav {
+    display: flex;
+} */

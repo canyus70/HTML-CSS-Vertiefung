@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "raleway";
+    src: url(./../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+html {
+    font-family: "raleway";
+}
+
+header {
+    background-image: url(./../img/neom-hFnNvoz4D_s-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 630px;
+    width: 100vw;
+}
+
+.header {
+    text-align: center;
+    padding: 250px 240px 250px 240px;
+
+
+}
+
+nav {
+    padding: 25px 15px;
+    border-bottom: 0.5px solid black;
+    display: flex;
+}
+
+.nav_liste {
+    display: flex;
+    justify-content:flex-end;
+    list-style: none;
+    gap: 20px;
+    margin-left: 35%;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+.logo {
+    color: #666;
+    margin-left: 100px;
+}
+
+.logo:hover {
+    color: #333;
+}
+
+.nav_link:hover {
+    color:#337ab7
+}
+
+.header h1 {
+    font-size: 4rem;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.header p {
+    font-size: 0.85rem;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.header_button {
+    border: 1px solid white;
+    padding: 15px 15px 15px 15px;
+    color: white;
+}
+
+.header_button_blau {
+    background-color: #745cf9;
+    padding: 15px 15px 15px 15px;
+    color: white;
+
+
+}
